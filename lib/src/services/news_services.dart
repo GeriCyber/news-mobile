@@ -38,7 +38,6 @@ class NewsService with ChangeNotifier {
       categoryArticles[item.name] = [];
     }
     getArticlesFromSelectedCategory;
-    print(getArticlesFromSelectedCategory);
   }
 
   getTopHeadlines() async {
